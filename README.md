@@ -21,7 +21,7 @@ How to run:
 * go to 'http://localhost:8180/'
 
 
-There are some restrictions of query that could be used by searching the contacts, for example:
+There are some restrictions of query that could be used by searching the contacts, try for example:
 
-
+### 8589246 Lou Gardner
 
