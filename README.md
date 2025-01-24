@@ -10,8 +10,18 @@ If the search did yield results, they should be presented to the user. Each resu
 * Address
 * Portrait picture (png) 
 
-There are some restrictions of query that could be used by searching the contacts:
+How to run:
 
-const searchName = terms.filter(term => !(/^\d{1,20}$/.test(term)));
-const searchPhone = terms.filter(term => /^\d{1,15}$/.test(term)  && term.length > 3);
-const searchAge = terms.filter(term => (/^\d{1,3}$/.test(term) && term.length <= 3));
+* git clone https://github.com/stas7341/contactBook.git
+* cd contactBook
+* npm i
+* you can change the port listening by add .env by #echo "PORT=8180" >> .env
+* npm run start (ts-node) or npm run build
+* npm run start:dist
+* go to 'http://localhost:8180/'
+
+
+There are some restrictions of query that could be used by searching the contacts, for example:
+
+
+
